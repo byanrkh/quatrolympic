@@ -9,7 +9,7 @@ export default function Navbar() {
         <div className="px-4 md:px-12 lg:px-24 mx-auto flex flex-col md:flex-row items-center justify-between gap-3 md:gap-4 py-3 md:py-0 md:h-20">
           <Link href="/">
             <Image
-              src="/assets/logo.PNG"
+              src="/assets/logo.png"
               alt="Logo Quatro"
               width={150}
               height={150}
