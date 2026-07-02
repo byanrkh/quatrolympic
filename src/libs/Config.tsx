@@ -139,8 +139,34 @@ export const leaderboardData: YearData[] = [
         champion: "-",
         runnerUp: "-",
       },
+    ],
+  },
+  {
+    edition: "Quatrolympic 17",
+    year: "2024",
+    results: [
       {
-        category: "Robotics",
+        category: "Futsal",
+        champion: "-",
+        runnerUp: "-",
+      },
+      {
+        category: "Basketball Boys",
+        champion: "-",
+        runnerUp: "-",
+      },
+      {
+        category: "Basketball Girls",
+        champion: "-",
+        runnerUp: "-",
+      },
+      {
+        category: "Badminton",
+        champion: "-",
+        runnerUp: "-",
+      },
+      {
+        category: "Solo Vocal",
         champion: "-",
         runnerUp: "-",
       },
