@@ -28,7 +28,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link href={"/"} className="font-medium hover:underline">
+              <Link href={"/contact"} className="font-medium hover:underline">
                 Contact
               </Link>
             </li>

@@ -7,17 +7,23 @@ export default function Footer() {
       <div className="bg-white p-5 border-2 rounded shadow-[5px_5px_0px_0px_black]">
         <ul className="md:flex gap-5 uppercase">
           <li>
-            <Link href="/" className="text-sm font-medium hover:underline">
+            <Link href="/about" className="text-sm font-medium hover:underline">
               Learn More
             </Link>
           </li>
           <li>
-            <Link href="/" className="text-sm font-medium hover:underline">
+            <Link
+              href="/contact"
+              className="text-sm font-medium hover:underline"
+            >
               Contact Us
             </Link>
           </li>
           <li>
-            <Link href="/" className="text-sm font-medium hover:underline">
+            <Link
+              href="/contact"
+              className="text-sm font-medium hover:underline"
+            >
               Sponsor & Partners
             </Link>
           </li>
