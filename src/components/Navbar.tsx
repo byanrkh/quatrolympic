@@ -16,6 +16,23 @@ export default function Navbar() {
               className="block"
             />
           </Link>
+          <ul className="flex gap-5">
+            <li>
+              <Link href={"/"} className="font-medium hover:underline">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link href={"/about"} className="font-medium hover:underline">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link href={"/"} className="font-medium hover:underline">
+                Contact
+              </Link>
+            </li>
+          </ul>
         </div>
       </nav>
     </>
