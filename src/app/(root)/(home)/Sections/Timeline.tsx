@@ -39,7 +39,7 @@ export default function Timeline() {
             </div>
             <div className="p-6 bg-white shadow-[5px_5px_0px_0px_black] border-2 rounded-2xl block md:flex justify-between items-center">
               <h1 className="font-bold text-2xl">Competitions</h1>
-              <p>31 Agustus - 5 September 2026</p>
+              <p>31 August - 5 September 2026</p>
             </div>
             <div className="p-6 bg-white shadow-[5px_5px_0px_0px_black] border-2 rounded-2xl block md:flex justify-between items-center">
               <h1 className="font-bold text-2xl">
