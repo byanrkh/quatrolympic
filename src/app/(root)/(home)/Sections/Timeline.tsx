@@ -20,8 +20,16 @@ export default function Timeline() {
           </div>
           <div className="space-y-5">
             <div className="p-6 bg-white shadow-[5px_5px_0px_0px_black] border-2 rounded-2xl block md:flex justify-between items-center">
+              <h1 className="font-bold text-2xl">Open Registration</h1>
+              <p>1 July - 27 August 2026</p>
+            </div>
+            <div className="p-6 bg-white shadow-[5px_5px_0px_0px_black] border-2 rounded-2xl block md:flex justify-between items-center">
               <h1 className="font-bold text-2xl">Al Azhar Creative Steps</h1>
               <p>24 August 2026</p>
+            </div>
+            <div className="p-6 bg-white shadow-[5px_5px_0px_0px_black] border-2 rounded-2xl block md:flex justify-between items-center">
+              <h1 className="font-bold text-2xl">Technical Meeting</h1>
+              <p>28 August 2026</p>
             </div>
             <div className="p-6 bg-white shadow-[5px_5px_0px_0px_black] border-2 rounded-2xl block md:flex justify-between items-center">
               <h1 className="font-bold text-2xl">
