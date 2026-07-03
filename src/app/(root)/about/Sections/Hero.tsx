@@ -1,8 +1,6 @@
 import Container from "@/components/Container";
 import Image from "next/image";
 import Link from "next/link";
-import { FaLeftLong } from "react-icons/fa6";
-import { FcLeft } from "react-icons/fc";
 
 export default function Hero() {
   return (
@@ -15,14 +13,6 @@ export default function Hero() {
             backgroundSize: "28px 28px",
           }}
         />
-        <div className="relative mx-auto max-w-4xl px-6">
-          <Link
-            href={"/"}
-            className="flex w-fit items-center gap-2 mb-5 font-bold underline hover:no-underline"
-          >
-            <FcLeft /> Home
-          </Link>
-        </div>
         <div className="relative mx-auto max-w-4xl px-6 text-center">
           <span className="inline-block -rotate-2 border-[3px] border-black bg-yellow-300 px-4 py-1.5 text-xs font-black uppercase tracking-wider text-black shadow-[4px_4px_0px_0px_black]">
             About The Event

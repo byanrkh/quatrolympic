@@ -32,15 +32,28 @@ export default function ContactPage() {
               </li>
               <li className="flex items-center gap-3">
                 <span className="border-2 border-black bg-[#F2BF6C] p-2 shrink-0">
+                  <Phone size={18} strokeWidth={2.5} />
+                </span>
+                <a
+                  href="https://wa.me/081292947972"
+                  target="_blank"
+                  className="font-bold hover:underline"
+                >
+                  +62 812 9294 7972
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
+                <span className="border-2 border-black bg-[#F2BF6C] p-2 shrink-0">
                   <MapPin size={18} strokeWidth={2.5} />
                 </span>
                 <span className="font-bold">
                   Kemang Pratama, Bekasi{" "}
                   <Link
                     href="https://share.google/U1Vkc911s09vLWCug"
+                    target="_blank"
                     className="text-sm text-blue-500 underline hover:no-underline font-medium ml-3"
                   >
-                    Open on Google Maps
+                    Open on Google
                   </Link>
                 </span>
               </li>
