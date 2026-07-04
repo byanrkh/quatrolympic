@@ -30,9 +30,13 @@ export default function Footer() {
         </ul>
         <div className="border-t border-b py-5 my-8">
           <ul className="flex gap-3">
-            <li className="text-xs">Terms of Service</li>
+            <li className="text-xs">
+              <Link href={"/tos"}>Terms of Service</Link>
+            </li>
             <li className="text-xs font-medium">|</li>
-            <li className="text-xs">Privacy Policy</li>
+            <li className="text-xs">
+              <Link href={"/privacypolicy"}>Privacy Policy</Link>
+            </li>
           </ul>
         </div>
         <p className="text-center text-xs opacity-85">
