@@ -19,52 +19,55 @@ export default function ContactPage() {
           <div className="bg-white border-4 border-black p-6 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]">
             <h2 className="font-black uppercase text-xl mb-6">Get in Touch</h2>
             <ul className="space-y-4">
-              <li className="flex items-center gap-3">
+              <li className="flex items-center gap-3 min-w-0">
                 <span className="border-2 border-black bg-[#F2BF6C] p-2 shrink-0">
                   <Mail size={18} strokeWidth={2.5} />
                 </span>
-                <a
+                <Link
                   href="mailto:alazharquatrolympic@hotmail.com"
-                  className="font-bold hover:underline"
+                  className="font-bold hover:underline wrap-break-word"
                 >
                   alazharquatrolympic@hotmail.com
-                </a>
+                </Link>
               </li>
-              <li className="flex items-center gap-3">
+
+              <li className="flex items-center gap-3 min-w-0">
                 <span className="border-2 border-black bg-[#F2BF6C] p-2 shrink-0">
                   <Phone size={18} strokeWidth={2.5} />
                 </span>
-                <a
+                <Link
                   href="https://wa.me/081292947972"
                   target="_blank"
-                  className="font-bold hover:underline"
+                  className="font-bold hover:underline wrap-break-word"
                 >
                   +62 812 9294 7972
-                </a>
+                </Link>
               </li>
-              <li className="flex items-center gap-3">
+
+              <li className="flex items-start gap-3 min-w-0">
                 <span className="border-2 border-black bg-[#F2BF6C] p-2 shrink-0">
                   <MapPin size={18} strokeWidth={2.5} />
                 </span>
-                <span className="font-bold">
+                <span className="font-bold wrap-break-word">
                   Kemang Pratama, Bekasi{" "}
                   <Link
                     href="https://share.google/U1Vkc911s09vLWCug"
                     target="_blank"
-                    className="text-sm text-blue-500 underline hover:no-underline font-medium ml-3"
+                    className="text-sm text-blue-500 underline hover:no-underline font-medium ml-1 md:ml-3"
                   >
                     Open on Google
                   </Link>
                 </span>
               </li>
-              <li className="flex items-center gap-3">
+
+              <li className="flex items-center gap-3 min-w-0">
                 <span className="border-2 border-black bg-[#F2BF6C] p-2 shrink-0">
                   <FaInstagram size={18} strokeWidth={2.5} />
                 </span>
                 <Link
                   href="https://instagram.com/quatrolympic"
                   target="_blank"
-                  className="font-bold hover:underline"
+                  className="font-bold hover:underline break-words"
                 >
                   @quatrolympic
                 </Link>
