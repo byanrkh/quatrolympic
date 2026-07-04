@@ -43,10 +43,10 @@ export default function CountdownLight() {
           </p>
         ) : (
           <div className="flex justify-center gap-3 sm:gap-5 md:gap-6">
-            <Box value={timeLeft.d} label="Hari" />
-            <Box value={timeLeft.h} label="Jam" />
-            <Box value={timeLeft.m} label="Menit" />
-            <Box value={timeLeft.s} label="Detik" />
+            <Box value={timeLeft.d} label="Days" />
+            <Box value={timeLeft.h} label="Hours" />
+            <Box value={timeLeft.m} label="Minutes" />
+            <Box value={timeLeft.s} label="Seconds" />
           </div>
         )}
       </div>
