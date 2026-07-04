@@ -12,7 +12,7 @@ export default function Leaderboard() {
 
   return (
     <Container>
-      <section className="bg-[#FDF6E9] py-16 md:py-24">
+      <section className="bg-[#aa9bff] py-16 md:py-24">
         <div className="mx-auto max-w-4xl px-6">
           <div className="mb-10 text-center">
             <span className="inline-block rotate-2 border-[3px] border-black bg-orange-300 px-4 py-1.5 text-xs font-black uppercase tracking-wider text-black shadow-[4px_4px_0px_0px_black]">

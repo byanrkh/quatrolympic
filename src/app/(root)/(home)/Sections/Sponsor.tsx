@@ -93,7 +93,7 @@ import { ArrowRight, Sparkles } from "lucide-react";
 
 export default function SponsorSection() {
   return (
-    <section className="bg-[#F2BF6C] border-t-4 border-b-4 border-black py-16">
+    <section className="bg-[#6cf2a6] border-t-4 border-b-4 border-black py-16">
       <div className="px-4 md:px-12 lg:px-24 mx-auto max-w-6xl">
         <div className="text-center max-w-2xl mx-auto mb-12">
           <span className="inline-flex items-center gap-2 bg-white border-2 border-black px-4 py-1.5 font-black uppercase text-xs mb-6 shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]">
@@ -102,12 +102,12 @@ export default function SponsorSection() {
           </span>
 
           <h2 className="text-3xl md:text-5xl font-black uppercase mb-4">
-            Jadi Bagian dari Acara Ini
+            BE A PART OF THIS EVENT
           </h2>
           <p className="font-medium text-gray-800">
-            Kami membuka kesempatan kerja sama sponsorship untuk brand,
-            komunitas, maupun perusahaan yang ingin mendukung dan tampil bersama
-            acara ini. Yuk, jadi sponsor kami!
+            We open sponsorship opportunities for brands, communities, and
+            companies looking to support and showcase alongside this event. Come
+            join us as a sponsor!
           </p>
         </div>
 
@@ -116,7 +116,7 @@ export default function SponsorSection() {
             href="/contact"
             className="inline-flex items-center gap-2 bg-black text-white font-black uppercase text-sm px-6 py-4 border-2 border-black shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] transition-all hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[7px_7px_0px_0px_rgba(0,0,0,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
           >
-            Jadi Sponsor Sekarang
+            BECOME A SPONSOR NOW
             <ArrowRight size={18} strokeWidth={2.5} />
           </Link>
         </div>

@@ -6,7 +6,7 @@ import { RegistrationCard } from "./RegistrationCard";
 export default function Registration() {
   return (
     <Container>
-      <section id="registration" className="bg-[#FDF6E9] py-16 md:py-24">
+      <section id="registration" className="py-16 md:py-24">
         <div className="mx-auto max-w-6xl px-6">
           <div className="mb-12 text-center">
             <span className="inline-block rotate-2 border-[3px] border-black bg-cyan-300 px-4 py-1.5 text-xs font-black uppercase tracking-wider text-black shadow-[4px_4px_0px_0px_black]">
