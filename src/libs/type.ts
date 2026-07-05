@@ -19,3 +19,8 @@ export type YearData = {
   year: string;
   results: CategoryResult[];
 };
+
+export type TimelineData = {
+  name: string;
+  date: string;
+}

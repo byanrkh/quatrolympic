@@ -5,7 +5,7 @@ import { LuMicVocal } from "react-icons/lu";
 import { FaKaaba, FaQuran } from "react-icons/fa";
 import { GiVintageRobot } from "react-icons/gi";
 import { SiPoetry, SiMaterialdesignicons } from "react-icons/si";
-import { Competition, YearData } from "./type";
+import { Competition, TimelineData, YearData } from "./type";
 
 export const competitions: Competition[] = [
   {
@@ -188,5 +188,32 @@ export const driveLinks = [
     icon: "🗂️",
     color: "bg-cyan-300",
     href: "https://drive.google.com/drive/folders/1ErqbmsiOd9AfOi4LQsACM8l6Qv3UiAsA",
+  },
+];
+
+export const Timelines: TimelineData[] = [
+  {
+    name: "Open Registration",
+    date: "1 July - 27 August",
+  },
+  {
+    name: "Al Azhar Creative Steps",
+    date: "24 August 2026",
+  },
+  {
+    name: "Technical Meeting",
+    date: "28 August 2026",
+  },
+  {
+    name: "Opening Ceremony of Quatrolympic 19",
+    date: "31 August, 2026",
+  },
+  {
+    name: "Competitions",
+    date: "31 August - 5 September 2026",
+  },
+  {
+    name: "Closing Ceremony & Art Performance",
+    date: "5 September 2026",
   },
 ];
