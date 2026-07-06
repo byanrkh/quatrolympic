@@ -13,12 +13,11 @@ export default function SponsorMarquee() {
     // Observer ini mendeteksi jika pembungkus keluar sedikit saja dari top 0
     const observer = new IntersectionObserver(
       ([entry]) => {
-        // Jika elemen tidak sepenuhnya terlihat di top, berarti dia mulai sticky
         setIsSticky(entry.intersectionRatio < 1);
       },
       {
         threshold: [1],
-        rootMargin: "-1px 0px 0px 0px", // Trigger tepat saat menyentuh top: 0
+        rootMargin: "-1px 0px 0px 0px",
       },
     );
 
