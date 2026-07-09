@@ -116,18 +116,18 @@ export const leaderboardData: YearData[] = [
     results: [
       {
         category: "Futsal",
-        champion: "-",
-        runnerUp: "-",
+        champion: "SMAN 2 BEKASI",
+        runnerUp: "SMAI AL AZHAR 4",
       },
       {
         category: "Basketball Boys",
-        champion: "-",
-        runnerUp: "-",
+        champion: "SMAI AL AZHAR 4 (B)",
+        runnerUp: "SMAN 3 BEKASI",
       },
       {
         category: "Basketball Girls",
-        champion: "-",
-        runnerUp: "-",
+        champion: "SMAN 11 BEKASI",
+        runnerUp: "SMAN 9 BEKASI",
       },
       {
         category: "Badminton",
@@ -198,7 +198,7 @@ export const Timelines: TimelineData[] = [
   },
   {
     name: "Al Azhar Creative Steps",
-    date: "24 August 2026",
+    date: "23 August 2026",
   },
   {
     name: "Technical Meeting",

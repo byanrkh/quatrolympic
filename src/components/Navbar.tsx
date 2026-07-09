@@ -32,6 +32,11 @@ export default function Navbar() {
                 Contact
               </Link>
             </li>
+            <li>
+              <Link href={"/contact"} className="font-medium hover:underline">
+                Pics
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
