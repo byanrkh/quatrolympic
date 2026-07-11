@@ -33,7 +33,10 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link href={"/contact"} className="font-medium hover:underline">
+              <Link
+                href={"https://pic.quatrolympic.com"}
+                className="font-medium hover:underline"
+              >
                 Pics
               </Link>
             </li>
